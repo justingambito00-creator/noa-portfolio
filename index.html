@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Homepage – NOA SHANELL DIMAANO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TOP BAR (same on every page) -->
+  <div class="topbar">
+    <a class="logo" href="index.html">NS</a>
+    <span class="topbar-name">NOA SHANELL DIMAANO</span>
+  </div>
+
+  <!-- PROFILE HEADER (same on every page) -->
+  <header class="profile">
+    <div class="cover" aria-hidden="true">
+      
+    </div>
+    <div class="profile-body">
+      <img class="avatar" src="images/photo.jpg" alt="Photo of Noa Shanell Dimaano">
+      <div>
+        <h1>NOA SHANELL DIMAANO</h1>
+        <p class="role">BSIT Student • Mindoro State University</p>
+      </div>
+      <img class="bow" src="images/bow.gif" alt="">
+    </div>
+    <nav class="tabs" aria-label="Main menu">
+      <a href="index.html" class="active" aria-current="page">Homepage</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="layout">
+      <aside class="card intro">
+        <h2>Intro</h2>
+        <p>Hi! I'm Noa Shanell, a BSIT student who loves working with computers. I do object detection with Roboflow, network cabling, and installing Windows.</p>
+        <ul class="facts">
+          <li>🎓 Mindoro State University, BSIT</li>
+          <li>🏫 Graduated: Naujan Municipal High School</li>
+          <li>📧 dimaanoshanell@gmail.com</li>
+        </ul>
+        <a class="button" href="contact.html">Contact me</a>
+        <img class="deco" src="images/heart.gif" alt="">
+      </aside>
+
+      <section class="feed" aria-label="Latest posts">
+        <article class="card post">
+          <div class="post-head"><img class="mini-avatar" src="images/photo.jpg" alt=""><div><strong>NOA SHANELL DIMAANO</strong><small>Project • Roboflow</small></div></div>
+          <p>I trained a Car Brand Detection model in Roboflow. My dataset has 21 images and the model reached around 81% mAP@50:95.</p>
+          <img class="post-img" src="images/roboflow.jpg" alt="Roboflow models page for the Car Brand Detection project">
+          <a class="button small" href="projects.html">See in Projects</a>
+        </article>
+        <article class="card post">
+          <div class="post-head"><img class="mini-avatar" src="images/photo.jpg" alt=""><div><strong>NOA SHANELL DIMAANO</strong><small>Project • Cabling</small></div></div>
+          <p>I am learning network cabling, including how a Cat6 cable connects to an RJ45 plug.</p>
+          <img class="post-img" src="images/cabling.jpg" alt="Blue Cat6 cable with an RJ45 connector">
+          <a class="button small" href="projects.html">See in Projects</a>
+        </article>
+        <article class="card post">
+          <div class="post-head"><img class="mini-avatar" src="images/photo.jpg" alt=""><div><strong>NOA SHANELL DIMAANO</strong><small>Project • Installing Windows</small></div></div>
+          <p>I can install Windows and fix common problems like stuck updates.</p>
+          <img class="post-img" src="images/windows.jpg" alt="Laptop showing the Getting Windows ready screen">
+          <a class="button small" href="projects.html">See in Projects</a>
+        </article>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">♥ © 2026 NOA SHANELL DIMAANO ♥</footer>
+</body>
+</html>
